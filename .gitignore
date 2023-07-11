@@ -1,0 +1,7 @@
+# Terraform cache files
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfplan
