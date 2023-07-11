@@ -4,7 +4,7 @@ provider "google" {
 }
 
 module "gcp_project" {
-  source              = "../../tier-1-bank-tf-modules/gcp-project"
+  source              = "git::https://github.com/organization/repository.git?ref=main"
   project_name        = var.project_name
   project_id          = var.project_id
   org_id              = var.org_id
