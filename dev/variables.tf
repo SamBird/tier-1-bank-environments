@@ -13,11 +13,6 @@ variable "org_id" {
   type        = string
 }
 
-variable "billing_account_id" {
-  description = "The billing account ID of the GCP project."
-  type        = string
-}
-
 variable "auto_create_network" {
   description = "Whether to auto-create the VPC network."
   type        = bool

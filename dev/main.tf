@@ -8,7 +8,6 @@ module "gcp_project" {
   project_name        = var.project_name
   project_id          = var.project_id
   org_id              = var.org_id
-  billing_account_id  = var.billing_account_id
   auto_create_network = var.auto_create_network
   labels              = var.labels
   api_list            = var.api_list
